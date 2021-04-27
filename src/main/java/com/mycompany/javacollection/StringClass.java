@@ -23,7 +23,38 @@ public class StringClass {
         }
         
         //How to concat
-        System.out.println(name.concat(name1));
+        //System.out.println(name.concat(name1));
+        
+        /*Uses of Contains method
+        System.out.println(name.contains("R"));
+        System.out.println(name.contains("m"));*/
+        
+        /*upercase and lowercase
+        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());*/
+        
+        
+        /*IndexOf
+        System.out.println(name.indexOf("l"));*/
+        
+        
+        /*How to know lastIndex of a particular Strings
+        System.out.println(name.lastIndexOf("a"));*/
+        
+        
+        //replace/replaceAll
+        System.out.println(name.replace("R","J"));
+        
+        String str = "I am jitendra Kumar From Gaya";
+        
+        System.out.println(Arrays.toString(str.split(" ")));
+        System.out.println(str.indexOf("Gaya"));
+        System.out.println(str.length());
+        
+    
+        
+        
     }
     
 }
+
