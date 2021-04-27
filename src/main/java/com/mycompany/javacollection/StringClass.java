@@ -42,14 +42,24 @@ public class StringClass {
         System.out.println(name.lastIndexOf("a"));*/
         
         
-        //replace/replaceAll
+        /*replace/replaceAll
         System.out.println(name.replace("R","J"));
         
         String str = "I am jitendra Kumar From Gaya";
         
         System.out.println(Arrays.toString(str.split(" ")));
         System.out.println(str.indexOf("Gaya"));
-        System.out.println(str.length());
+        System.out.println(str.length());*/
+        
+        
+        //toCharArray
+        String str = "I am jitendra Kumar From Gaya";
+       
+        System.out.println(Arrays.toString(str.toCharArray()));
+        
+        //SubString
+        System.out.println(str.substring(3));
+        System.out.println(str.substring(4,29));
         
     
         
